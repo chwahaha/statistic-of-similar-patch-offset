@@ -10,8 +10,8 @@
 
 | 原图                         | label                       | result |
 | ---------------------------- | --------------------------- | ------ |
-| ![](.\testsImage\image4.jpg) | ![](.\Output\lableMap4.jpg) | ![](.\Output\result4.jpg)        |
-| ![](.\testsImage\man.png) |     ![](.\Output\lableMap-man.jpg)                        |  ![](.\Output\result-man.jpg)      |
+| ![](/testsImage/image4.jpg) | ![](/Output/lableMap4.jpg) | ![](./Output/result4.jpg)        |
+| ![](./testsImage/man.png) |    ![](./Output/lableMap-man.jpg)                        |  ![](./Output/result-man.jpg)      |
 
 # Implementation detail
 
@@ -22,7 +22,9 @@
 
 # Requires
 
-OpenCV
+1. OpenCV
+2. Eigen to fullfill the possion fusion
+
 
 developed by vs2017 community
 
